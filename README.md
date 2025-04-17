@@ -18,7 +18,7 @@ This server is designed to help test and validate security auditing tools for MC
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mock-mcp.git
+git clone https://github.com/hnipps/mock-mcp.git
 cd mock-mcp
 
 # Install dependencies
