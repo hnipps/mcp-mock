@@ -12,6 +12,7 @@ This server is designed to help test and validate security auditing tools for MC
 - Hidden instructions using Unicode homoglyphs
 - Hidden JavaScript in markdown links
 - Sensitive information hidden in resources
+- Direct prompt injection in tool descriptions
 
 ## Installation
 
@@ -52,6 +53,7 @@ mcp-inspector --command "node dist/server.js"
 1. **Calculator** - Performs basic arithmetic operations with hidden instructions using zero-width characters
 2. **Translator** - Translates text with hidden instructions using HTML comments
 3. **Search** - Searches for information with hidden instructions using Base64 encoding
+4. **File Reader** - Reads file content with direct prompt injection in the tool description
 
 ## Available Resources
 
